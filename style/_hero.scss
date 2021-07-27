@@ -1,0 +1,15 @@
+#hero-container{
+    position: relative;
+
+    #hero-img{
+        width: 100%;
+    }
+
+    #hero-text{
+        position: absolute;
+    }
+
+    #arrow{
+        position: absolute;
+    }
+}

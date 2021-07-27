@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #148077;
+}
+
+#header {
+  position: relative;
+}
+
+#header #navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 2.5em 0;
+  z-index: 999;
+}
+
+#header #navbar #logo {
+  padding-left: 2.5em;
+}
+
+#header #navbar #menus {
+  padding-right: 2em;
+}
+
+#header #navbar #menus #menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header #navbar #menus #menuList li {
+  list-style: none;
+  padding: 0 1.5em;
+}
+
+#header #navbar #menus #menuList li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#header #navbar #menus #menuList li .contact-btn {
+  padding: 1em 2.1em;
+  background: white;
+  color: black;
+  border-radius: 24px;
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#hero-container {
+  position: relative;
+}
+
+#hero-container #hero-img {
+  width: 100%;
+}
+
+#hero-container #hero-text {
+  position: absolute;
+}
+
+#hero-container #arrow {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
